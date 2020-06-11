@@ -53,8 +53,8 @@ def turn_count
 end
 
 def current_player
-   self.turn_count
-end
+   self.turn_count.odd? ? "0" : "X"
+ end
 
 
 
