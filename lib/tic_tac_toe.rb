@@ -42,16 +42,16 @@ def valid_move?(index)
   !position_taken?(index) && index.between?(0, 8)
 end
 
-def turn_count
-  # @board.count {|pos| pos == "X"  || pos == "0"}
-  counter = 0
-  @board.each do |pos|
-    if pos == "X"    || pos == "0"
-           counter += 1
+def turn_count(board)
+   counter = 0
+   board.each do |spaces|
+      if spaces == "X" || spaces == "O"
+         counter += 1
       end
-  end
-  counter
+   end
+   counter
 end
+
 
 
 
