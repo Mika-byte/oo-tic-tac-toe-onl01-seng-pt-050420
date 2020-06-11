@@ -49,6 +49,7 @@ def turn_count
     if pos == "X" || pos == "0"
     end
   end
+  counter
 end
 
 
