@@ -43,14 +43,14 @@ def valid_move?(index)
 end
 
 def turn_count
-  # @board.count {|pos| pos == "X"  || pos == "0"}
-  counter = 0
-  @board.each do |pos|
-    if pos == "X" || pos == "0"
-      counter += 1
-    end
-  end
-  counter
+  @board.count {|pos| pos == "X"  || pos == "0"}
+  # counter = 0
+  # @board.each do |pos|
+  #   if pos == "X" || pos == "0"
+  #     counter += 1
+  #   end
+  # end
+  # counter
 end
 
 
