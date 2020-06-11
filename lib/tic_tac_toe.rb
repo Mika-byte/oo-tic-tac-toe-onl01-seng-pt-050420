@@ -66,8 +66,8 @@ def current_player
    else
      puts "Sorry, not a valid move"
      self.turn
- end
- end
+    end
+   end
  
 
 
