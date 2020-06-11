@@ -57,12 +57,15 @@ def current_player
  end
  
  def turn 
-   puts"Where Would you like to move? (1-9)"
+   puts "Where Would you like to move? (1-9)"
    input = gets.strip
    index = input_to_index(input)
    if self.valid_move?(index)
      self.move(index, self.current_player)
+     self.display_board
    else
+     puts "Sorry, not a valid move"
+     self.turn
  end
  end
  
