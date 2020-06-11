@@ -67,10 +67,11 @@ def current_player
      binding.pry
      
    else
-     puts "Sorry, not a valid move"
+     puts "Sorry, not a valid move."
      self.turn
     end
    end
+   game = TicTacToe.new
  
 
 
