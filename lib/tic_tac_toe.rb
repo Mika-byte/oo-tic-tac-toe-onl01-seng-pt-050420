@@ -1,4 +1,4 @@
-requ
+require 'pry'
 class TicTacToe
   
   attr_accessor :board
