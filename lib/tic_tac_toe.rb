@@ -55,6 +55,11 @@ end
 def current_player
    self.turn_count.odd? ? "0" : "X"
  end
+ 
+ def turn 
+   puts"
+   input = gets.strip
+ 
 
 
 
