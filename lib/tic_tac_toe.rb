@@ -53,8 +53,14 @@ def turn_count
    counter
 end
 
-
+def current_player
+    if turn_count % 2 == 0
+    "X"
+    else
+    "O"
+  end
  
+#turn 
 def turn
     puts "Please enter 1-9:"
     input = gets.strip
@@ -67,7 +73,6 @@ def turn
       turn
     end
 end
-
 
 
 
