@@ -1,6 +1,6 @@
-require 'pry'
+
 class TicTacToe
-  binding.pry
+
   attr_accessor :board
   
   WIN_COMBINATIONS = [
