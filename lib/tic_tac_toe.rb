@@ -1,4 +1,4 @@
-
+require 'pry'
 class TicTacToe
 
   attr_accessor :board
@@ -72,7 +72,7 @@ def current_player
    game = TicTacToe.new
  
 
-
+binding.pry
 
 
 
