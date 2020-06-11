@@ -57,7 +57,7 @@ def current_player
  end
  
  def turn 
-   puts"
+   puts"Where Would you like to move? (1-9)"
    input = gets.strip
  
 
