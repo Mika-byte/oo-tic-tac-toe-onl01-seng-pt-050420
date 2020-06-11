@@ -53,9 +53,7 @@ def turn_count
    counter
 end
 
-def current_player
-   self.turn_count.odd? ? "0" : "X"
- end
+
  
 def turn
     puts "Please enter 1-9:"
