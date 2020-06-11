@@ -72,7 +72,7 @@ def current_player
    game = TicTacToe.new
  
 
-binding.pry
+# binding.pry
 
 
 
