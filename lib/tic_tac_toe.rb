@@ -1,3 +1,4 @@
+requ
 class TicTacToe
   
   attr_accessor :board
@@ -63,6 +64,7 @@ def current_player
    if self.valid_move?(index)
      self.move(index, self.current_player)
      self.display_board
+     
    else
      puts "Sorry, not a valid move"
      self.turn
